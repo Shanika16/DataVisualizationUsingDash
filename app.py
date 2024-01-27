@@ -1,7 +1,10 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-pip install streamlit==1.16.0 altair==4.2.2 click==8.0.0
+import dash
+from dash import dcc
+from dash import html
+from dash.dependencies import Output, Input
 
 # Read in the data
 data = pd.read_csv("precious_metals_prices_2018_2021.csv")
