@@ -3,7 +3,7 @@ import plotly.express as px
 import pandas as pd
 
 # Read in the data
-data = pd.read_csv("precious metals prices 2018_2021.csv")
+data = pd.read_csv("precious_metals_prices_2018_2021.csv")
 data["DateTime"] = pd.to_datetime(data["DateTime"], format="%Y-%m-%d")
 
 # Sidebar
@@ -48,3 +48,4 @@ st.plotly_chart(fig)
 # Display additional information
 st.title("Precious Metal Prices")
 st.markdown("The cost of precious metals between 2018 and 2021.")
+
