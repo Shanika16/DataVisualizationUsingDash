@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-import dash
+pip install dash
 from dash import dcc
 from dash import html
 from dash.dependencies import Output, Input
