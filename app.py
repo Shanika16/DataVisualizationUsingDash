@@ -1,7 +1,6 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-pip uninstall altair streamlit
 pip install streamlit==1.16.0 altair==4.2.2 click==8.0.0
 
 # Read in the data
