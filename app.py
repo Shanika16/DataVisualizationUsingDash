@@ -3,7 +3,7 @@ import plotly.express as px
 import pandas as pd
 
 # Read in the data
-data = pd.read_csv("/path/to/your/file/precious_metals_prices_2018_2021.csv")
+data = pd.read_csv("precious_metals_prices_2018_2021.csv")
 data["DateTime"] = pd.to_datetime(data["DateTime"], format="%Y-%m-%d")
 
 # Sidebar
