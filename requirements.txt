@@ -6,3 +6,4 @@ scipy==1.7.3
 scikit-learn==0.24.2
 matplotlib==3.4.3
 seaborn==0.11.2
+pip install -r /path/to/your/requirements.txt
